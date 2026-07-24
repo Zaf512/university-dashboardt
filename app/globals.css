@@ -10,3 +10,12 @@ body { margin:0; background:var(--paper); color:var(--ink); font-family: Arial, 
 select,button,input { font:inherit; }
 .chart { height:340px; width:100%; }
 @media(max-width:640px){ .chart{height:290px;} }
+.table-wrap { width:100%; overflow:auto; border:1px solid rgba(15,35,63,.09); border-radius:16px; background:#fff; }
+.data-table { width:100%; border-collapse:separate; border-spacing:0; min-width:900px; font-size:.875rem; }
+.data-table th { position:sticky; top:0; z-index:2; background:#f7f5f0; color:#435066; padding:.85rem .9rem; text-align:right; white-space:nowrap; border-bottom:1px solid #e3e5e8; }
+.data-table td { padding:.8rem .9rem; text-align:right; white-space:nowrap; border-bottom:1px solid #eef0f2; }
+.data-table tbody tr:nth-child(even) { background:#fbfbfa; }
+.data-table tbody tr:hover { background:#f6f1e7; }
+.missing-chip,.currency-chip { display:inline-flex; align-items:center; border-radius:999px; padding:.2rem .55rem; font-size:.75rem; }
+.missing-chip { background:#fff1f0; color:#9f312d; }
+.currency-chip { background:#eef2f7; color:#263c5c; }
