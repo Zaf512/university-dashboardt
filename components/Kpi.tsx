@@ -1,0 +1,1 @@
+export default function Kpi({label,value,note}:{label:string;value:string;note?:string}){return <div className="panel p-5 border-t-2 gold-line"><div className="text-sm text-slate-500">{label}</div><div className="text-2xl md:text-3xl font-semibold mt-2 text-[#10233f]">{value}</div>{note&&<div className="text-xs text-slate-400 mt-2">{note}</div>}</div>}

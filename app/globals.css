@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root { --ink:#101b2d; --gold:#b99655; --paper:#f4f1eb; --navy:#10233f; }
+* { box-sizing: border-box; }
+html { direction: rtl; }
+body { margin:0; background:var(--paper); color:var(--ink); font-family: Arial, "Noto Sans Arabic", sans-serif; }
+.luxury-bg { background: radial-gradient(circle at 15% 10%, rgba(185,150,85,.13), transparent 28%), linear-gradient(135deg,#0b172a,#152d4c 65%,#0b172a); }
+.panel { background:rgba(255,255,255,.92); border:1px solid rgba(15,35,63,.10); border-radius:22px; box-shadow:0 14px 35px rgba(15,35,63,.07); }
+.gold-line { border-color:rgba(185,150,85,.5); }
+select,button,input { font:inherit; }
+.chart { height:340px; width:100%; }
+@media(max-width:640px){ .chart{height:290px;} }
